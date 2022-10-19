@@ -1,0 +1,17 @@
+{
+  "name": "07-clone-spotify",
+  "version": "1.0.0",
+  "description": "Estudo em TAILWIND CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8"
+  }
+}
