@@ -12,15 +12,17 @@ module.exports = {
         'purple-main':'#2D46B9',
         'green-main':'#1ED760'
       },
-      backgroundImage: theme => ({
-        'spotify-theme':"url('/img/bursts.svg')",
-        'spotify-theme-mobile':"url('/img/bursts-mobile.svg')",
-      }),
+      backgroundImage: {
+        'spotify-theme': "url('../img/bursts.svg')",
+        'spotify-theme-mobile': "url('../img/bursts-mobile.svg')"
+      },
       backgroundSize:{
+        '115%':'115%',
         '175%':'175%',
         '195%':'195%'
       },
       backgroundPosition:{
+        'banner':'26% 2%',
         'banner':'46% 4%',
         'banner-mobile': "top 25% center"
       },

@@ -56,15 +56,112 @@
   flex-col 
   justify-center 
   text-center 
-  bg-spotify-theme-mobile 
+  bg-spotify-theme-mobile
+  2xl:bg-spotify-theme
+  md:bg-spotify-theme
+  bg-banner-mobile
+  2xl:bg-banner
+  md:bg-banner
+  bg-195%
+  md:bg-175%
+  2xl:bg-115%
+  bg-purple-main
+  text-green-main
   py-40 
-  px-4">
+  px-4
+  ">
     <div>
-      <h1>Escutar muda tudo</h1>
-      <p>Milhões de música e podcasts para explorar. E nem precisa de cartão de crédito.</p>
-      <a href="#">Obtenha o Spotify Free</a>
+      <h1 
+      class="
+      text-5xl 
+      md:text-9lx 
+      mb-10 
+      font-bold 
+      max-w-4xl 
+      mx-auto
+      ">
+      Escutar muda tudo
+      </h1>
+      <p 
+      class="
+      text-md 
+      md:text-lg 
+      mb-10
+      ">
+      Milhões de música e podcasts para explorar. E nem precisa de cartão de crédito.</p>
+      <a 
+      class="
+      bg-green-main 
+      hover:bg-white 
+      text-purple-main 
+      text-sm 
+      rounded-full 
+      px-10 
+      py-3 
+      uppercase 
+      font-bold 
+      max-wxl 
+      mx-auto 
+      tracking-widest 
+      transition 
+      duration-500" 
+      href="#">Obtenha o Spotify Free</a>
     </div>
   </main>
   <!-- FOOTER -->
+  <footer>
+    <div class="grid grid-cols-1 md:grid-cols-6 bg-black text-white p-4 md:p-20">
+        <div class="md:col-span-1 pt-10 md:pt-0">
+          <a href="#">
+            <img src="img/spotify-logo.png" alt="Spotify" class="w-20 md:w-132px">
+          </a>
+        </div>
+        <div class="md:col-span-1 pt-10 md:pt-4">
+          <h3>Empresa</h3>
+          <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Empregos</a></li>
+            <li><a href="#">For the Record</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-1 pt-10 md:pt-4">
+          <h3>Comunidades</h3>
+          <ul>
+            <li><a href="#">Para Artistas</a></li>
+            <li><a href="#">Desenvolvedores</a></li>
+            <li><a href="#">Publicidade</a></li>
+            <li><a href="#">Investidores</a></li>
+            <li><a href="#">Fornecedores</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-1 pt-10 md:pt-4">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Player da Web</a></li>
+            <li><a href="#">Aplicativo móvel grátis</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-2 pt-10 md:pt-4">
+          <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-4 pt-10 mt-20">
+          <ul>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Centro de Privacidade</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Sobre anúcios</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-2 pt-10 mt-20">
+          <p>&copy; 2020 Spotify AB</p>
+        </div>
+    </div>
+  </footer>
 </body>
 </html>

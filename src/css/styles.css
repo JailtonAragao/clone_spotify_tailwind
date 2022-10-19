@@ -18117,11 +18117,11 @@ video {
 }
 
 .bg-spotify-theme {
-  background-image: url('/img/bursts.svg');
+  background-image: url('../img/bursts.svg');
 }
 
 .bg-spotify-theme-mobile {
-  background-image: url('/img/bursts-mobile.svg');
+  background-image: url('../img/bursts-mobile.svg');
 }
 
 .from-transparent {
@@ -21537,6 +21537,10 @@ video {
 
 .bg-contain {
   background-size: contain;
+}
+
+.bg-115\% {
+  background-size: 115%;
 }
 
 .bg-175\% {
@@ -49505,11 +49509,11 @@ video {
   }
 
   .sm\:bg-spotify-theme {
-    background-image: url('/img/bursts.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .sm\:bg-spotify-theme-mobile {
-    background-image: url('/img/bursts-mobile.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .sm\:from-transparent {
@@ -52925,6 +52929,10 @@ video {
 
   .sm\:bg-contain {
     background-size: contain;
+  }
+
+  .sm\:bg-115\% {
+    background-size: 115%;
   }
 
   .sm\:bg-175\% {
@@ -80529,11 +80537,11 @@ video {
   }
 
   .md\:bg-spotify-theme {
-    background-image: url('/img/bursts.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .md\:bg-spotify-theme-mobile {
-    background-image: url('/img/bursts-mobile.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .md\:from-transparent {
@@ -83949,6 +83957,10 @@ video {
 
   .md\:bg-contain {
     background-size: contain;
+  }
+
+  .md\:bg-115\% {
+    background-size: 115%;
   }
 
   .md\:bg-175\% {
@@ -111553,11 +111565,11 @@ video {
   }
 
   .lg\:bg-spotify-theme {
-    background-image: url('/img/bursts.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .lg\:bg-spotify-theme-mobile {
-    background-image: url('/img/bursts-mobile.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .lg\:from-transparent {
@@ -114973,6 +114985,10 @@ video {
 
   .lg\:bg-contain {
     background-size: contain;
+  }
+
+  .lg\:bg-115\% {
+    background-size: 115%;
   }
 
   .lg\:bg-175\% {
@@ -142577,11 +142593,11 @@ video {
   }
 
   .xl\:bg-spotify-theme {
-    background-image: url('/img/bursts.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .xl\:bg-spotify-theme-mobile {
-    background-image: url('/img/bursts-mobile.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .xl\:from-transparent {
@@ -145997,6 +146013,10 @@ video {
 
   .xl\:bg-contain {
     background-size: contain;
+  }
+
+  .xl\:bg-115\% {
+    background-size: 115%;
   }
 
   .xl\:bg-175\% {
@@ -173601,11 +173621,11 @@ video {
   }
 
   .\32xl\:bg-spotify-theme {
-    background-image: url('/img/bursts.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .\32xl\:bg-spotify-theme-mobile {
-    background-image: url('/img/bursts-mobile.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .\32xl\:from-transparent {
@@ -177021,6 +177041,10 @@ video {
 
   .\32xl\:bg-contain {
     background-size: contain;
+  }
+
+  .\32xl\:bg-115\% {
+    background-size: 115%;
   }
 
   .\32xl\:bg-175\% {
@@ -187132,3 +187156,4 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
